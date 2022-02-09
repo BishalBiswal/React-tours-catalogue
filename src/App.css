@@ -29,7 +29,7 @@ footer{
 }
 
 .single-tour{
-   width: 900px;
+   width: 300px;
    border-radius: 20px;
    box-shadow: 5px 5px 30px 10px rgb(255, 193, 135);
    margin-bottom: 50px;
@@ -52,8 +52,8 @@ footer{
    background-color: rgb(248, 174, 105);
    border: none;
    border-radius: 5px;
-   height: 50px;
-   width: 200px;
+   height: 40px;
+   width: 150px;
    font-size: x-large;
 }
 
@@ -75,6 +75,58 @@ footer{
    font-size: large;
    border: 5px solid sandybrown;
    border-radius: 6px;
+   width: 150px;
+   height: 40px;
+} 
+
+@media screen and (min-width:769px ){
+    .single-tour{
+   width: 600px;
+   border-radius: 20px;
+   box-shadow: 5px 5px 30px 10px rgb(255, 193, 135);
+   margin-bottom: 50px;
+   padding: 10px;
+}
+.btn{
+   background-color: rgb(248, 174, 105);
+   border: none;
+   border-radius: 5px;
+   height: 45px;
+   width: 180px;
+   font-size: x-large;
+}
+.delete-btn{
+   background-color:transparent;
+   font-size: large;
+   border: 5px solid sandybrown;
+   border-radius: 6px;
+   width: 180px;
+   height: 45px;
+}
+}
+
+@media screen and (min-width:1000px ){
+    .single-tour{
+   width: 900px;
+   border-radius: 20px;
+   box-shadow: 5px 5px 30px 10px rgb(255, 193, 135);
+   margin-bottom: 50px;
+   padding: 10px;
+}
+.btn{
+   background-color: rgb(248, 174, 105);
+   border: none;
+   border-radius: 5px;
+   height: 50px;
+   width: 200px;
+   font-size: x-large;
+}
+.delete-btn{
+   background-color:transparent;
+   font-size: large;
+   border: 5px solid sandybrown;
+   border-radius: 6px;
    width: 200px;
    height: 50px;
+}
 }
