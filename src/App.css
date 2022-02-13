@@ -49,6 +49,7 @@ footer{
    justify-content: space-between;
 }
 .btn{
+   cursor: pointer;
    background-color: rgb(248, 174, 105);
    border: none;
    border-radius: 5px;
@@ -58,6 +59,7 @@ footer{
 }
 
 .btn-read{
+   cursor: pointer;
    border: none;
    background: transparent;
    color: rgb(21, 166, 223);
@@ -71,6 +73,7 @@ footer{
 }
 
 .delete-btn{
+   cursor: pointer;
    background-color:transparent;
    font-size: large;
    border: 5px solid sandybrown;
@@ -79,8 +82,8 @@ footer{
    height: 40px;
 } 
 
-@media screen and (min-width:769px ){
-    .single-tour{
+@media screen and (min-width:768px ){
+.single-tour{
    width: 600px;
    border-radius: 20px;
    box-shadow: 5px 5px 30px 10px rgb(255, 193, 135);
@@ -88,6 +91,7 @@ footer{
    padding: 10px;
 }
 .btn{
+   cursor: pointer;
    background-color: rgb(248, 174, 105);
    border: none;
    border-radius: 5px;
@@ -96,6 +100,7 @@ footer{
    font-size: x-large;
 }
 .delete-btn{
+   cursor: pointer;
    background-color:transparent;
    font-size: large;
    border: 5px solid sandybrown;
@@ -114,6 +119,7 @@ footer{
    padding: 10px;
 }
 .btn{
+   cursor: pointer;
    background-color: rgb(248, 174, 105);
    border: none;
    border-radius: 5px;
@@ -122,6 +128,7 @@ footer{
    font-size: x-large;
 }
 .delete-btn{
+   cursor: pointer;
    background-color:transparent;
    font-size: large;
    border: 5px solid sandybrown;
